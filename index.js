@@ -60,5 +60,7 @@ function youHaveWon()
     topText.style.fontSize='38px'
     topText.innerText="WOHOO!!! YOU WON!!!"
     
-    gridItems[mine].classList.add('show-mine') 
+    gridItems[mine].style.backgroundImage='url("images/mine.webp")';
+    gridItems[mine].style.backgroundSize='cover';
+    gridItems[mine].classList.add('disabled')
 }
