@@ -42,12 +42,6 @@ body{
     pointer-events: none;
 }
 
-.show-mine{
-    background:url("images/mine.webp");
-    background-size: cover;
-}
-
-
 #start-btn{
     width: 200px;
     padding: 10px 16px;
