@@ -3,6 +3,7 @@ let grid=document.querySelector(".grid-container")
 let topText=document.querySelector('#top-text')
 let startGameBtn=document.querySelector("#start-btn")
 let score=0
+let mine
 
 
 function showAlert(){
