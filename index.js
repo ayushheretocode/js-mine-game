@@ -20,7 +20,7 @@ function startGame(){
 
     topText.innerText="Score: "+score
 
-    let mine=Math.floor(Math.random()*25)
+    mine=Math.floor(Math.random()*25)
 
     gridItems.forEach((item,index)=>{
         item.addEventListener('click',function(){
