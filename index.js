@@ -48,7 +48,7 @@ function startGame(){
 function gameOver(){
     
     topText.style.fontSize='36px'
-    topText.innerText="GAME OVER SCORE: "+score
+    topText.innerText="GAME OVER!!! SCORE: "+score
     
     gridItems.forEach(item =>{
         item.classList.add('disabled');
