@@ -34,6 +34,7 @@ function startGame(){
             {
                 item.style.backgroundImage='url("images/gem.webp")';
                 item.style.backgroundSize='cover';
+                item.classList.add('disabled');
                 score+=10
                 topText.innerText="Score: "+score
                 if(score===240)
