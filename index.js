@@ -63,5 +63,8 @@ function youHaveWon()
     
     gridItems[mine].style.backgroundImage='url("images/mine.webp")';
     gridItems[mine].style.backgroundSize='cover';
-    gridItems[mine].classList.add('disabled');
+    
+    gridItems.forEach(item =>{
+        item.classList.add('disabled');
+    })
 }
